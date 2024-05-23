@@ -12,7 +12,7 @@ ul{
     background-color: #252323;
     height: 60px;
 }
-main{
+main, .content{
     margin: 0 auto;
     width: 980px;
     position: relative;
@@ -119,5 +119,65 @@ ul.slick-dots li button{
 }
 ul.slick-dots li.slick-active {
     background-color:#00bac6;
+}
+.slick-list{
+    width: 100%!important;
+}
+.slick-initialized{
+    overflow: hidden;
+}
+.slick-dots li button{
+    font-size: 0px;
+    border: 4px solid #ffffff;
+    width: 26px;
+    height: 26px;
+    background: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.slick-dots{
+    margin: 0 auto;
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    top: 615px; 
+}
 
+li.slick-active button{
+    background: #00bac6;
+}
+
+.slick-dots li{
+    padding-left: 10px;
+    display: inline-block;
+}
+.texto-destaque{
+    text-align: center;
+}
+
+.texto-destaque strong{
+    color: #646464;
+}
+
+.texto-destaque h1{
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #818181;
+}
+.texto-destaque p {
+    font-size: 15px;
+    color: #9a9a9a;
+}
+.col-3{
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 29%;
+    float: left;
+    position: relative;
+}
+.bloco-texto{
+    margin-top: 3em;
+}
+h3{
+    font-weight: normal!important;
 }
